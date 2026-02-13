@@ -1,16 +1,16 @@
-//  ✍🏻这个标识是背景图
-{"wallpaper":
-"https://jikefuye.cn/wp-content/uploads/2026/01/-复古墙面-scaled-e1768639866191.jpg",
 
-//  ✍🏻这个标识是头像
+{"wallpaper":
+"https://789.st/zLP7cyj",
+
+
 "logo":
 "https://jikefuye.cn/touxiang.jpg",
 
-//  ✍🏻这个标识是jar
-"spider": 
-"http://oss4liview.moji.com/thd_file/2026/01/23/aabe9ebea7695ee766e0bf503b218dcc.jpg;md5;f2973db01b3ac8dd9d9cd931e384935e",
 
-//  ✍🏻这个标识是直播
+"spider": 
+"https://jihulab.com/yoursmile2/TVBox/-/raw/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+
+
 "lives": [
 { "name": "公众号【卡卡测评馆】TV直播","type": 1,"url": "https://jikefuye.cn/zhibo.txt"},
 
@@ -34,35 +34,20 @@
 
 
 
-//  ✍🏻这个标识是资源
-"sites":[{"key":"公众号【卡卡测评馆】豆瓣片单","name":"公众号【卡卡测评馆】豆瓣片单","type":3,"api":"csp_Douban","jar":"https://mpimg.cn/down.php/34dc804020748504a15e2767b37656c3.jar","searchable": 1,"quickSearch":0,"filterable": 1,"ext":"https://down.nigx.cn/upld.zone.id/uploads/q9iq9e5iq/3.txt"
+"sites":[{"key":"豆瓣片单|公众号【卡卡测评馆】","name":"豆瓣片单丨公众号【卡卡测评馆】","type":3,"api":"csp_Douban","jar":"https://mpimg.cn/down.php/34dc804020748504a15e2767b37656c3.jar","searchable": 1,"quickSearch":0,"filterable": 1,"ext":"https://jikefuye.cn/geek001.json"
 },
+{"key":"弹幕","name":"🅿嗷嗚弹幕┃刷新一下自动启动","type":3,"api":"csp_GoConfigAmnsr","jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {
 "key":"公众号【卡卡测评馆】电视直播",
-"name":"极客丨电视丨直播",
+"name":"📺电视丨直播（公众号【卡卡测评馆】）",
 "type":3,
 "searchable":0,
 "changeable":0,
 "api":"https://jikefuye.cn/geek002.js",
 "ext":"https://jikefuye.cn/geek002.json"
 },
-{
-            "key": "公众号【卡卡测评馆】APP直播",
-            "name": "极客丨APP丨直播",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "Living"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "公众号【卡卡测评馆】快手直播",
-            "name": "极客丨快手丨直播",
+{           "key": "公众号【卡卡测评馆】快手直播",
+            "name": "📺快手丨直播（公众号【卡卡测评馆】）",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -73,14 +58,11 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": {
-                "sp": "KsLive"
-            },
             "timeout": 10
         },
         {
             "key": "公众号【卡卡测评馆】斗鱼直播",
-            "name": "极客丨斗鱼丨直播",
+            "name": "📺斗鱼丨直播（公众号【卡卡测评馆】）",
             "type": 3,
             "api": "https://7337.kstore.vip/js/drpy2.min.js",
             "ext": "https://7337.kstore.vip/js/斗鱼直播.js",
@@ -91,7 +73,7 @@
         },
         {
             "key": "公众号【卡卡测评馆】虎牙直播",
-            "name": "极客丨虎牙丨直播",
+            "name": "📺虎牙丨直播",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -107,141 +89,107 @@
             },
             "timeout": 10
         },
-        {
+{
 "key":"公众号【卡卡测评馆】哔哩直播",
-"name":"极客丨哔哩丨直播",
+"name":"📺哔哩丨直播",
 "type":3,
 "api":"https://mpimg.cn/down.php/d18d26a80c0d820e716be81e51568488.py"
         },
         {
-            "key": "公众号【卡卡测评馆】中国直播",
-            "name": "极客丨中国丨直播",
-            "type": 3,
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;76630164b5442be73bc3277927729996",
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": {
-                "site": "http://110.81.153.7:1963/get.txt",
-                "dataKey": "k7L9mQ2xR4pW8n88",
-                "dataIv": "k7L9mQ2xR4pW8n88",
-                "version": "2"
-            }
+"key":"公众号【卡卡测评馆】韩国直播",
+"name":"📺韩国丨直播",
+"type":3,
+"api":"https://mpimg.cn/down.php/7321244c1cde79a5f876542fbb2fd3a2.py"
         },
+        {
+      "key": "公众号【卡卡测评馆】央卫视直播",
+      "name": "📺央卫视丨直播",
+      "api": "csp_WvSpider",
+      "type": "3",
+      "jar": "https://mpimg.cn/down.php/c7f900ca93e57df8f44ad8a33be8fa9c.jar",
+      "ext": "https://mpimg.cn/down.php/8302a59aefc8ab325f4069baed36a77b.js"
+       },
        {
 "key":"公众号【卡卡测评馆】电台直播",
-"name":"极客丨电台丨直播",
+"name":"📻电台丨直播",
 "type":3,
 "api":"http://rihou.cc:88/js/drpy2.min.js",
 "ext":"http://rihou.cc:88/js/蜻蜓FM.js"
         },
-        {
-            "key": "移动网盘",
-            "name": "👖移动丨网盘丨免扫码",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "Panta"
-            },
-            "timeout": 25
-            },
-           {
-      "key": "多多网盘",
-      "name": "👖多多丨网盘丨免扫码",
-      "type": 3,
-      "jar": "http://154.201.83.69:25252/仅供测试/custom_spider.jar;md5;7106a041705c8e0e43ec9cbf0d131dcd",
-      "api": "csp_HBNT4",
-      "ext": "DyoqWQInJUMuGFcBCgtNXAQ4Og8HOSNECiVBHi0YVUg="
-    },
-    {
-      "key": "至臻网盘",
-      "name": "👖至臻丨网盘丨免扫码",
-      "type": 3,
-      "jar": "http://154.201.83.69:25252/仅供测试/custom_spider.jar;md5;7106a041705c8e0e43ec9cbf0d131dcd",
-      "api": "csp_HBNT4",
-      "ext": "DyoqWQIrBwMuUgZBNzVBHQA7MUcsCFtcCjVMVA=="
-            },
-            {
-      "key": "木偶",
-      "name": "👖木偶丨网盘丨免扫码",
-      "type": 3,
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;f2cf5b9cb97c1e00d893511777c3abe1",
-      "api": "csp_HBNT4",
-"ext":"DyoqWQIrBwMuGytIIxtMWy8FMQwtNStECyoUXy0YVUg="
-             },
-            {
-            "key": "公众号【卡卡测评馆】6V影视",
-            "name": "极客丨6V丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "sp": "Xb6v"
-            },
-            "timeout": 20
-            },
-            {
-            "key": "公众号【卡卡测评馆】雄鹰影视",
-            "name": "极客丨雄鹰丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "XiongYing",
-                "danmu": true
-            },
-            "timeout": 10
-           },
-           {
-            "key": "公众号【卡卡测评馆】比特影视",
-            "name": "极客丨比特丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "sp": "Btt",
-                "danmu": true
-            },
-            "timeout": 10
-           },
-           {
-            "key": "公众号【卡卡测评馆】瓜子影视",
-            "name": "极客丨瓜子丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "Guazi",
-                "danmu": true
-            },
-            "timeout": 10
-            },
-	     {
-			"api": "https://learnpython.ggff.net/TGstymei",
-			"key": "公众号【卡卡测评馆】瓜子备用",
-			"name": "极客丨瓜子丨备用",
-			"type": 4
-	    },
-          {
-            "key": "公众号【卡卡测评馆】糯米影视",
-            "name": "极客丨糯米丨影视",
+{"key":"csp_GuaZi","name":"🍉瓜子","type":3,"api":"csp_AweSomeGuard","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"巧技二","name":"💢聚搜┃仅搜索","type":3,"api":"csp_qiao2","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
+{"key":"天天","name":"⛅天天","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939791h1l3888jig44gi291li"},
+{"key":"金牌","name":"🥇金牌","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
+{"key":"星河","name":"💫星河","type":3,"api":"csp_Qiji","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"},
+{"key":"优质","name":"🌈优质","type":3,"api":"csp_Qiji","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"},
+{"key":"永夜","name":"🌙永夜","type":3,"api":"csp_Xdai","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"},
+{"name":"👀注视","key":"Gaze","type":3,"api":"csp_GazeAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🍑糖心","key":"TnewGr","type":3,"api":"csp_TnewGrAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🍎小苹果","key":"小苹果","type":3,"api":"csp_XpgAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🏭厂长","key":"厂长","type":3,"api":"csp_CzzyAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"key":"csp_SaoHuo","name":"🔥骚火","type":3,"api":"csp_SaoHuo","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://saohuody.com"},
+{"key":"csp_FourK","name":"🌋绝对","type":3,"api":"csp_FourK","playerType":"2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.4kvm.me/"},
+{"key":"csp_Qiyou","name":"🦌奇优","type":3,"api":"csp_Qiyou","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Lkdy","name":"🏔️来看","type":3,"api":"csp_Lkdy","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://lkvod.com"},
+{"key":"剧圈圈","name":"⭕剧圈圈","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/剧圈圈.json","click":"document.getElementById('playleft').children[0].contentWindow.document.getElementById('start').click()"},
+{"key":"农民","name":"👩‍🌾农民","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://git.yylx.win/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/农民影视.json"},
+{"key":"永乐","name":"🍰永乐","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类":"电影$1#电视剧$2#综艺$3#动漫$4","类型":"动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43","分类url":"https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
+{"key":"面包","name":"🎁面包","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html","分类":"电影$20#电视剧$21#动漫$23#综艺$22#短剧$47","简介":"简介：&&"}},
+{"key":"ZXZJ","name":"🏠在线","api":"csp_Zxzj","type":3,"searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i7942463j9j9jgg449698khhh845ki38473"},
+{"key":"低端","name":"📺低端","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/低端影视.json"},
+{"key":"csp_Ikanbot","name":"👾Ikanbot","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"csp_Jianpian","name":"🧲荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json"},
+{"key":"csp_Dygang","name":"🧲电影港","type":3,"api":"csp_Dygang","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_xlys","name":"🧲修罗","type":3,"api":"csp_xlys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://xl01.com.de/"},
+{"key":"csp_New6v","name":"🧲新6V","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_DyGod","name":"🧲电影天堂","type":3,"api":"csp_DyGod","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_QnMp4","name":"🧲七妹","type":3,"api":"csp_QnMp4","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_MeijuMi","name":"🧲美剧迷","type":3,"api":"csp_MeijuMi","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijumi.net/"},
+{"key":"csp_BLSGod","name":"🧲80S影视","type":3,"api":"csp_BLSGod","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_SP360","name":"💘360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
+{"key":"csp_Dm84","name":"🚌动漫巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dm84.net"},
+{"key":"嗷呜动漫","name":"🙀嗷呜动漫","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/嗷呜动漫.json"},
+{"key":"樱花动漫","name":"💮樱花动漫","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/樱花动漫.json"},
+{"name":"☕韩剧","key":"Hxq","type":3,"api":"csp_HxqAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"key":"聚合短剧","name":"🈴聚合短剧","type":3,"api":"csp_JuheShortDrama","searchable":1,"filterable":0,"switchable":0,"ext":{"host":{"甜圈":"https://mov.cenguigui.cn","锦鲤":"https://api.jinlidj.com","番茄":"https://reading.snssdk.com","番茄2":"https://fqgo.52dns.cc","星芽":"https://app.whjzjx.cn","星芽登录":"https://u.shytkjgs.com","西饭":"https://xifan-api-cn.youlishipin.com"},"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"name":"🍉找短剧","key":"找短剧","type":3,"api":"csp_HgggAmns","indexs":1,"searchable":0,"filterable":0,"quickSearch":0,"changeable":0,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🍩甜圈短剧","key":"甜圈短剧","type":3,"api":"csp_TQdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🎦豪堪短剧","key":"豪堪短剧","type":3,"api":"csp_HHkkAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"📺盒马短剧","key":"盒马短剧","type":3,"api":"csp_HemaAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🎞️拜拜短剧","key":"拜拜短剧","type":3,"api":"csp_BddjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🐠锦鲤短剧","key":"锦鲤短剧","type":3,"api":"csp_JLdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🐱喵喵短剧","key":"喵喵短剧","type":3,"api":"csp_QmdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"⭐星星短剧","key":"星星短剧","type":3,"api":"csp_XydjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"name":"🎂岁岁短剧","key":"岁岁短剧","type":3,"api":"csp_SpdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"},
+{"key":"豆瓣","name":"🚀豆瓣预告","type":3,"api":"csp_YGP","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Kanqiu","name":"⚾看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"changeable":0,"gridview":3,"style":{"type":"list"}},
+{"key":"csp_Kugou","name":"🐶酷狗","type":3,"api":"csp_Kugou","playerType":2,"ext":{"classes":[{"type_name":"酷狗","type_id":"kugou"}]}},
+{"key":"csp_FirstAid","name":"🚑急救教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"style":{"type":"rect","ratio":3.8}},
+
+{"key":"玩偶gg","name":"👽玩偶","type":3,"api":"csp_Wogg","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://wogg.xxooo.cf","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"片库","name":"🅿片库","type":3,"api":"csp_Qiwei","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://www.qwnull.com","commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"pansou|fish","name":"🅿pansou|fish","type":3,"api":"csp_PanSouFish","searchable":1,"changeable":0,"ext":{"siteUrl":"https://pansou-latest-hv4k.onrender.com","filter":{"include":["HDR","高码"],"exclude":["预告","花絮"]},"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"二小","name":"😈二小","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://erxiaofn.click/","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"至臻","name":"💯至臻","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://www.mihdr.top","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"虎斑","name":"🐯虎斑","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"http://103.45.162.207:20720","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"蜡笔","name":"🖍︎蜡笔","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://feimao666.fun","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"木偶","name":"🧸木偶","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"http://123.666291.xyz","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"讴歌","name":"🅾讴歌","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://woog.nxog.eu.org","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"多多","name":"🌟多多","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://tv.yydsys.top","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"星剧社","name":"⭐️星剧社","type":3,"api":"csp_Star2","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://1.star2.cn","commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"闪电","name":"⚡闪电","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","siteUrl":"https://sduc.cloud/","filter":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"}},
+{"key":"FourKZN","name":"️4️⃣4k指南","type":3,"api":"csp_FourKZN","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"csp_PanSearch","name":"📀盘搜索","type":3,"api":"csp_PanSearch","searchable":1,"changeable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"盘Ta","name":"🍥盘Ta","type":3,"api":"csp_PanTa","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://www.91panta.cn/","commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"网盘集合","name":"🅿网盘集合|4K","type":3,"api":"csp_网盘集合","searchable":1,"filterable":0,"switchable":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","share":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/网盘集合.json"}},
+{"key":"Youtube","name":"⚡Youtube","type":3,"api":"csp_Youtube","searchable":1,"changeable":1,"style":{"type":"rect","ratio":1.433},"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","json":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/youtube.json"}},
+{"key":"Emby","name":"Emby","type":3,"api":"csp_Emby","searchable":1,"quickSearch":1,"filterable":1,"ext":{"server":"http://127.0.0.1:9966/api/proxy/https://lite.cn2gias.uk:443","username":"23","password":"23","ua":"Yamby/1.0.2(Android)","client":"Yamby","clientVersion":"0.2.3","deviceName":"oppo find x9 pro","commonConfig":"http://127.0.0.1:9978/file/TVBox/peizhi.json"},"changeable":1},
+{"key":"肥牛","name":"Emby肥牛","type":3,"api":"csp_Emby","searchable":1,"quickSearch":1,"filterable":1,"ext":{"server":"http://127.0.0.1:9966/api/proxy/https://emby.feiniu.lol:443","username":"23","password":"123","ua":"","client":"Yamby","deviceName":"Yamby","commonConfig":"http://127.0.0.1:9978/file/TVBox/peizhi.json"},"changeable":1},
+{"key":"TgYunPan|本地","name":"🅿TgYunPan|本地","type":3,"api":"csp_TgYunPanLocal","searchable":1,"filterable":0,"switchable":0,"ext":{"count":4,"channelUsername":"+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk","commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+{"key":"push_agent","name":"🐧裙：1038078591","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"commonConfig":"https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"}},
+  {
+            "key": "公众号【卡卡测评馆】",
+            "name": "卡卡测评丨糯米丨影视",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -254,227 +202,26 @@
             },
             "timeout": 10
         },
-        {
-            "key": "公众号【卡卡测评馆】天天影视",
-            "name": "极客丨天天丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "TianTian",
-                "danmu": true,
-                "site": 0
-            },
-            "timeout": 10
-        },
-        {
-            "key": "公众号【卡卡测评馆】厂长影视",
-            "name": "极客丨厂长丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "Czzy",
-                "danmu": true
-            },
-            "timeout": 10
-            },
-            {
-            "key": "公众号【卡卡测评馆】佩琪影视",
-            "name": "极客丨佩琪丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "XiaoZhu",
-                "danmu": true
-            },
-            "timeout": 10
-        },
-        {
-            "key": "公众号【卡卡测评馆】一起影视",
-            "name": "极客丨一起丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "Yqs",
-                "danmu": true
-            },
-            "timeout": 10
-            },
-            {
-            "key": "公众号【卡卡测评馆】木瓜影视",
-            "name": "极客丨木瓜丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "AppFox",
-                "danmu": true,
-                "siteUrl": "http://www.yezitv.top"
-            },
-            "timeout": 10
-           },
-           {
-            "key": "公众号【卡卡测评馆】韩圈影视",
-            "name": "极客丨韩圈丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "HanXiaoQuan",
-                "danmu": true
-            },
-            "timeout": 10
-            },
-            {
-            "key": "公众号【卡卡测评馆】奇奇影视",
-            "name": "极客丨奇奇丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "QiQi",
-                "danmu": true
-            },
-            "timeout": 10
-            },
-            {
-"key":"公众号【卡卡测评馆】泥巴影视",
-"name":"极客丨泥巴丨影视",
-"type":3,
-"api":"http://rihou.cc:88/js/drpy2.min.js",
-"ext":"http://rihou.cc:88/js/泥泥视频.js"
-            },
-            {
-            "key": "公众号【卡卡测评馆】MG影视",
-            "name": "极客丨MG丨影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/js/mgtv.js"
-        },
-        {
-            "key": "公众号【卡卡测评馆】聚梦影视",
-            "name": "极客丨聚梦丨影视",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/jumeng.php"
-            },
-           {
-      "key": "公众号【卡卡测评馆】爬虫影视",
-      "name": "极客丨爬虫丨影视",
-      "type": 1,
-      "api": "https://dy.7772888.xyz/api.php/tvbox",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-            },
-            {
-            "key": "公众号【卡卡测评馆】网易影视",
-            "name": "极客丨网易丨影视",
-            "type": 3,
-            "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/网易公版影像.js"
-            },
-           {
-            "key": "公众号【卡卡测评馆】哔哩影视",
-            "name": "极客丨哔哩丨影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "sp": "Bilimd"
-            },
-            "timeout": 10
-             },
              {
-			"api": "https://learnpython.ggff.net/TXSPPY",
-			"key": "公众号【卡卡测评馆】腾讯影视",
-			"name": "极客丨腾讯丨影视",
-			"type": 4
-		},
-             {
-            "key": "公众号【卡卡测评馆】3QJS",
-            "name": "极客丨3Q丨JS",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/6281a393b19643afdcf2489cb7930155.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-            },
-            {
-            "key": "公众号【卡卡测评馆】独播JS",
-            "name": "极客丨独播丨JS",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/fbe5493683cbef26437721513d495d7d.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-            },
-             {
-            "key": "公众号【卡卡测评馆】酷六JS",
-            "name": "极客丨酷六丨JS",
+            "key": "公众号【卡卡测评馆】",
+            "name": "卡卡测评丨酷六丨JS",
             "type": 3,
             "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
             "changeable": 0,
             "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/酷6网.js"
              },
             {
-            "key": "公众号【卡卡测评馆】EmbyJS",
-            "name": "极客丨Emby丨JS",
+            "key": "公众号【卡卡测评馆】",
+            "name": "卡卡测评丨独播丨JS",
             "type": 3,
-            "api": "https://mpimg.cn/down.php/40d30fe3d9671e0d700f1c272bb20aaa.js",
+            "api": "https://mpimg.cn/down.php/fbe5493683cbef26437721513d495d7d.js",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
-            },
-            {
-            "key": "公众号【卡卡测评馆】苹果JS",
-            "name": "极客丨苹果丨JS",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/e603543fa096163b17e8c90a63a96b63.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
+            "filterable": 1
             },
             {
             "key": "公众号【卡卡测评馆】荐片JS",
-            "name": "极客丨荐片丨JS",
+            "name": "荐片丨JS",
             "type": 3,
             "api": "https://mpimg.cn/down.php/16ba56f7ddd38134bb0725ad63f1f72b.js",
             "style": {
@@ -485,7 +232,7 @@
             },
             {
             "key": "公众号【卡卡测评馆】短剧JS",
-            "name": "极客丨短剧丨JS",
+            "name": "短剧丨JS",
             "type": 3,
             "api": "https://mpimg.cn/down.php/93e0decefe3a2ad8949c5fe389d6cab2.js",
             "style": {
@@ -496,7 +243,7 @@
             },
             {
             "key": "公众号【卡卡测评馆】海龟JS",
-            "name": "极客丨海龟丨JS",
+            "name": "海龟丨JS",
             "type": 3,
             "api": "https://mpimg.cn/down.php/f6690a283956c245aee15ef24411afde.js",
             "style": {
@@ -507,7 +254,7 @@
             },
             {
             "key": "公众号【卡卡测评馆】永乐JS",
-            "name": "极客丨永乐丨JS",
+            "name": "永乐丨JS",
             "type": 3,
             "api": "https://mpimg.cn/down.php/0338609bd59d7b27226f5a269ec97936.js",
             "style": {
@@ -518,7 +265,7 @@
 },
 {
             "key": "公众号【卡卡测评馆】金牌JS",
-            "name": "极客丨金牌丨JS",
+            "name": "金牌丨JS",
             "type": 3,
             "api": "https://mpimg.cn/down.php/af2c84aea46fa071e9d9bfa04a9f86ac.js",
             "style": {
@@ -529,7 +276,7 @@
 },
 {
 "key":"公众号【卡卡测评馆】两个BT",
-"name":"极客丨2BT丨PY",
+"name":"2BT丨PY",
 "api":"https://mpimg.cn/down.php/447cf39f4cb26681ecacfd7f29cd0029.py",
 "filterable":1,
 "quickSearch":1,
@@ -538,7 +285,7 @@
 },
 {
 "key":"公众号【卡卡测评馆】界影PY",
-"name":"极客丨界影丨PY",
+"name":"界影丨PY",
 "api":"https://mpimg.cn/down.php/4440a9a56b6d222647a856452eefb21a.py",
 "filterable":1,
 "quickSearch":1,
@@ -547,7 +294,7 @@
 },
 {
 "key":"公众号【卡卡测评馆】猎手PY",
-"name":"极客丨猎手丨PY",
+"name":"猎手丨PY",
 "api":"https://mpimg.cn/down.php/60fab5ff33f0b0fd88f099ae3be708bf.py",
 "filterable":1,
 "quickSearch":1,
@@ -556,225 +303,16 @@
 },
 {
 "key":"公众号【卡卡测评馆】芒果PY",
-"name":"极客丨芒果丨PY",
+"name":"芒果丨PY",
 "api":"https://mpimg.cn/down.php/643d3f9a0b601f25d3e372eeb66e82a5.py",
 "filterable":1,
 "quickSearch":1,
 "searchable":1,
 "type":3
 },
-{
-"key":"公众号【卡卡测评馆】兄弟PY",
-"name":"极客丨兄弟丨PY",
-"api":"https://mpimg.cn/down.php/b1cdcf76574a0cb24d5b937d46458cdf.py",
-"filterable":1,
-"quickSearch":1,
-"searchable":1,
-"type":3
-},
-{
-      "key": "公众号【卡卡测评馆】海外PY",
-      "name": "极客丨海外丨PY",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/b3d597e2db2ca2c7e7aa03b65aa172c6.py",     "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-},
-{
-            "key": "公众号【卡卡测评馆】小红PY",
-            "name": "极客丨小红丨PY",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/4e3abedeb4415a85de53c1f7e0951dab.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-},
-{
-            "key": "公众号【卡卡测评馆】央视PY",
-            "name": "极客丨央视丨PY",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/2dfd46b7b542f1f4ac34e0af4ec5549b.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "公众号【卡卡测评馆】栏目PY",
-            "name": "极客丨栏目丨PY",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/83d7645e7fa012dba942c467774e7b2b.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-            },
-            {
-            "key": "公众号【卡卡测评馆】锦鲤短剧",
-            "name": "极客丨锦鲤丨短剧",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "Jinli"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "公众号【卡卡测评馆】盒马短剧",
-            "name": "极客丨盒马丨短剧",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "HeMa"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "公众号【卡卡测评馆】星芽短剧",
-            "name": "极客丨星芽丨短剧",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "AppXY"
-            },
-            "timeout": 10
-        },
-        {
-"key":"公众号【卡卡测评馆】甜圈短剧",
-"name":"极客丨甜圈丨短剧",
-"type":3,
-"api":"https://mpimg.cn/down.php/f194c10e99e326d8904914219b7ebc52.py",
-"searchable":1,
-"changeable":1,
-"quickSearch":1,
-"filterable":1
-         },
-        {
-"key":"公众号【卡卡测评馆】剧王短剧",
-"name":"极客丨剧王丨短剧",
-"type":3,
-"api":"https://mpimg.cn/down.php/b9c6c381312dcd5b510ac3e6bb49aa0f.py",
-"searchable":1,
-"changeable":1,
-"quickSearch":1,
-"filterable":1
-           },
-          {
-            "key": "公众号【卡卡测评馆】七星短剧",
-            "name": "极客丨七星丨短剧",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-           },
-          {
-            "key": "公众号【卡卡测评馆】星阁短剧",
-            "name": "极客丨星阁丨短剧",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/xingzhige.php"
-           },
-           {
-            "name": "公众号【卡卡测评馆】KTV音乐",
-            "key": "极客丨KTV丨音乐",
-            "type": 3,
-            "api": "csp_KuGouAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-           },
-           {
-            "key": "公众号【卡卡测评馆】哔哩音乐",
-            "name": "极客丨哔哩丨音乐",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=bMTV"
-           },
-           {
-"key":"公众号【卡卡测评馆】花语音乐",
-"name":"极客丨花语丨音乐",
-"type":3,
-"jar": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/71f9c49cf470b54b/1217.jpg;md5;11e752cb8cd0c47a0804c70ed965be67",
-"api":"csp_Music",
-"quickSearch":0,
-"searchable":0,
-"ext":""
-        },
-        {
-            "key": "公众号【卡卡测评馆】啊哈DJ",
-            "name": "极客丨啊哈丨DJ",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/aha.php"
-        },
-        {
-            "key": "公众号【卡卡测评馆】悠悠DJ",
-            "name": "极客丨悠悠丨DJ",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/djuu.php"
-        },
-        {
-            "key": "公众号【卡卡测评馆】樱花动漫",
-            "name": "极客丨樱花丨动漫",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "YHDM"
-            },
-            "timeout": 15
-        },
-        {
-            "key": "公众号【卡卡测评馆】NT动漫",
-            "name": "极客丨NT丨动漫",
-            "type": 3,
-            "api": "https://7337.kstore.vip/js/drpy2.min.js",
-            "ext": "https://7337.kstore.vip/js/NT动漫.js"
-        },
-        {
-			"key": "公众号【卡卡测评馆】巴士动漫",
-			"name": "极客丨巴士丨动漫",
-			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
-        },
-        {
-            "key": "公众号【卡卡测评馆】瓜子体育",
-            "name": "极客丨瓜子丨体育",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": {
-                "sp": "GzSport"
-            },
-            "timeout": 10
-            },
 	     {
 	      "key": "88",
-	      "name": "极客丨88丨体育",
+	      "name": "88看球丨体育",
 	      "type": 3,
             "jar": "https://gitee.com/senno/tvbox/raw/master/jar/饭太硬.jar",
 	      "api": "csp_Sir88Guard",
@@ -784,120 +322,9 @@
 	        	"type": "list"
 	    	}
     	       },
-             {
-            "key": "公众号【卡卡测评馆】听书",
-            "name": "极客丨听书丨长辈",
-            "type": 3,
-            "api": "https://7337.kstore.vip/js/drpy2.min.js",
-            "ext": "https://7337.kstore.vip/js/爱上你听书网.js"
-        },
-        {
-            "key": "公众号【卡卡测评馆】评书",
-            "name": "极客丨评书丨长辈",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/suishenting.php"
-        },
-        {
-            "key": "公众号【卡卡测评馆】相声",
-            "name": "极客丨相声丨长辈",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=Blixs"
-        },
-        {
-            "key": "公众号【卡卡测评馆】小品",
-            "name": "极客丨小品丨长辈",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
-            },
-            "timeout": 20
-        },
-        {
-            "key": "公众号【卡卡测评馆】戏曲",
-            "name": "极客丨戏曲丨长辈",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=Blixq"
-        },
-        {
-            "key": "公众号【卡卡测评馆】广场舞",
-            "name": "极客丨广场舞丨长辈",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/tangdou.php"
-        },
-        {
-            "key": "公众号【卡卡测评馆】宝宝教育",
-            "name": "极客丨宝宝丨教育",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=少儿教育"
-        },
-        {
-            "key": "公众号【卡卡测评馆】小学教育",
-            "name": "极客丨小学丨教育",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=小学课堂"
-        },
-        {
-            "key": "公众号【卡卡测评馆】初中教育",
-            "name": "极客丨初中丨教育",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=初中课堂"
-        },
-        {
-            "key": "公众号【卡卡测评馆】高中教育",
-            "name": "极客丨高中丨教育",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=高中课堂"
-            },
-            {
-            "key": "公众号【卡卡测评馆】教程",
-            "name": "极客丨教程丨聚合",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=软件教程"
-           },
-           {
-            "key": "公众号【卡卡测评馆】美食聚合",
-            "name": "极客丨美食丨聚合",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=美食"
-            },
-            {
-            "key": "公众号【卡卡测评馆】外语聚合",
-            "name": "极客丨外语丨聚合",
-            "type": 4,
-            "api": "https://catbox.n13.club/t9/bili.php?id=waiyu"
-            },
-            {
-            "key": "公众号【卡卡测评馆】视频聚合",
-            "name": "极客丨视频丨聚合",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
-            },
-            "timeout": 20
-            },
             {
             "key": "公众号【卡卡测评馆】采集聚合",
-            "name": "极客丨采集丨聚合",
+            "name": "采集丨聚合",
             "type": 4,
             "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
             "searchable": 1,
@@ -910,7 +337,7 @@
             },
             {
             "key": "公众号【卡卡测评馆】JS聚合",
-            "name": "极客丨JS丨聚合",
+            "name": "JS丨聚合",
             "type": 4,
             "api": "http://zhangqun1818.serv00.net/js.php",
             "searchable": 1,
@@ -922,7 +349,7 @@
             },
             {
             "key": "公众号【卡卡测评馆】PY聚合",
-            "name": "极客丨PY丨聚合",
+            "name": "PY丨聚合",
             "type": 4,
             "api": "http://zhangqun1818.serv00.net/py.php",
             "searchable": 1,
@@ -935,7 +362,7 @@
            },
           {
             "key": "公众号【卡卡测评馆】php聚合",
-            "name": "极客丨PHP丨聚合",
+            "name": "PHP丨聚合",
             "type": 4,
             "api": "http://zhangqun1818.serv00.net/php.php",
             "searchable": 1,
@@ -944,7 +371,7 @@
 },
 {
       "key": "dyttcj",
-      "name": "极客丨天堂丨采集",
+      "name": "天堂丨采集（含FL）",
       "type": 1,
       "api": "http://dyttzyw.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -983,7 +410,7 @@
 },
 {
       "key": "bfzycj",
-      "name": "极客丨暴风丨采集",
+      "name": "暴风丨采集",
       "type": 1,
       "api": "http://by.bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -1035,7 +462,7 @@
 },
 {
       "key": "jszycj",
-      "name": "极客丨极速丨采集",
+      "name": "极速丨采集",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
       "searchable": 1,
@@ -1073,4 +500,5 @@
         "伦理片",
         "体育赛事",
         "预告片"
+
       ]}]}
