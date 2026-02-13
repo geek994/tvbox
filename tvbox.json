@@ -1,16 +1,16 @@
-//  ✍🏻这个标识是背景图
+
 {"wallpaper":
 "https://789.st/zLP7cyj",
 
-//  ✍🏻这个标识是头像
+
 "logo":
 "https://jikefuye.cn/touxiang.jpg",
 
-//  ✍🏻这个标识是jar
+
 "spider": 
 "https://jihulab.com/yoursmile2/TVBox/-/raw/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
 
-//  ✍🏻这个标识是直播
+
 "lives": [
 { "name": "公众号【卡卡测评馆】TV直播","type": 1,"url": "https://jikefuye.cn/zhibo.txt"},
 
@@ -33,7 +33,7 @@
 {"name": "四季TV直播{台湾ip翻}","type": 0,"ua": "okhttp/5.3.2","url":"http://ezc.xtvantsc.xyz/litv.php"}],
 
 
-//  ✍🏻这个标识是资源
+
 "sites":[{"key":"豆瓣片单|公众号【卡卡测评馆】","name":"豆瓣片单丨公众号【卡卡测评馆】","type":3,"api":"csp_Douban","jar":"https://mpimg.cn/down.php/34dc804020748504a15e2767b37656c3.jar","searchable": 1,"quickSearch":0,"filterable": 1,"ext":"https://jikefuye.cn/geek001.json"
 },
 {"key":"弹幕","name":"🅿嗷嗚弹幕┃刷新一下自动启动","type":3,"api":"csp_GoConfigAmnsr","jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
@@ -500,4 +500,5 @@
         "伦理片",
         "体育赛事",
         "预告片"
+
       ]}]}
